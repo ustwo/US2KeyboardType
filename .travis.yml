@@ -1,6 +1,6 @@
 language: objective-c
 before_install: gem install cocoapods
-xcode_workspace: US2KeyboardType.xcodeproj
+xcode_workspace: US2KeyboardType.xcworkspace
 xcode_scheme: US2KeyboardType
 notifications:
   email: false
