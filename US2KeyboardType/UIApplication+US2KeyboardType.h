@@ -1,5 +1,5 @@
 //
-//  US2ViewController.h
+//  UIApplication+US2KeyboardType.h
 //  US2KeyboardType
 //
 //  Created by Martin on 29/05/2014.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface US2ViewController : UIViewController
+@interface UIApplication (US2KeyboardType)
+
+@property (nonatomic, assign, readonly) UIKeyboardType keyboardType;
 
 @end

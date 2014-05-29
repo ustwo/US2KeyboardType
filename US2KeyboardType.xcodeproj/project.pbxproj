@@ -7,72 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B5E6CC319376A370050D097 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5E6CC219376A370050D097 /* Foundation.framework */; };
-		5B5E6CC519376A370050D097 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5E6CC419376A370050D097 /* CoreGraphics.framework */; };
-		5B5E6CC719376A370050D097 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5E6CC619376A370050D097 /* UIKit.framework */; };
-		5B5E6CCD19376A370050D097 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B5E6CCB19376A370050D097 /* InfoPlist.strings */; };
-		5B5E6CCF19376A370050D097 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5E6CCE19376A370050D097 /* main.m */; };
-		5B5E6CD319376A370050D097 /* US2AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5E6CD219376A370050D097 /* US2AppDelegate.m */; };
-		5B5E6CD619376A370050D097 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B5E6CD419376A370050D097 /* Main.storyboard */; };
-		5B5E6CD919376A370050D097 /* US2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5E6CD819376A370050D097 /* US2ViewController.m */; };
-		5B5E6CDB19376A370050D097 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B5E6CDA19376A370050D097 /* Images.xcassets */; };
-		5B5E6CE219376A370050D097 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5E6CE119376A370050D097 /* XCTest.framework */; };
-		5B5E6CE319376A370050D097 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5E6CC219376A370050D097 /* Foundation.framework */; };
-		5B5E6CE419376A370050D097 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5E6CC619376A370050D097 /* UIKit.framework */; };
-		5B5E6CEC19376A370050D097 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B5E6CEA19376A370050D097 /* InfoPlist.strings */; };
-		5B5E6CEE19376A370050D097 /* US2KeyboardTypeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5E6CED19376A370050D097 /* US2KeyboardTypeTests.m */; };
+		5B57D92F193778D8004A5174 /* UIApplication+US2KeyboardTypeSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B57D92E193778D8004A5174 /* UIApplication+US2KeyboardTypeSpec.m */; };
+		5B5E6DA519376F7A0050D097 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5E6CC219376A370050D097 /* Foundation.framework */; };
+		5B5E6DC8193770260050D097 /* UIApplication+US2KeyboardType.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5E6DC7193770260050D097 /* UIApplication+US2KeyboardType.m */; };
+		5B824222193778AD00B99D67 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5E6CE119376A370050D097 /* XCTest.framework */; };
+		5B824223193778AD00B99D67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5E6CC219376A370050D097 /* Foundation.framework */; };
+		5B824224193778AD00B99D67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5E6CC619376A370050D097 /* UIKit.framework */; };
+		5B82422A193778AD00B99D67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B824228193778AD00B99D67 /* InfoPlist.strings */; };
+		757B2362EED84BFDB06DE44B /* libPods-US2KeyboardTypeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19560627C4AD47BBA4CEB8A6 /* libPods-US2KeyboardTypeTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5B5E6CE519376A370050D097 /* PBXContainerItemProxy */ = {
+		5B82422E193778AD00B99D67 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5B5E6CB719376A370050D097 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5B5E6CBE19376A370050D097;
+			remoteGlobalIDString = 5B5E6DA319376F7A0050D097;
 			remoteInfo = US2KeyboardType;
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXFileReference section */
-		5B5E6CBF19376A370050D097 /* US2KeyboardType.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = US2KeyboardType.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B5E6CC219376A370050D097 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		5B5E6CC419376A370050D097 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5B5E6CC619376A370050D097 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		5B5E6CCA19376A370050D097 /* US2KeyboardType-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "US2KeyboardType-Info.plist"; sourceTree = "<group>"; };
-		5B5E6CCC19376A370050D097 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5B5E6CCE19376A370050D097 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5B5E6CD019376A370050D097 /* US2KeyboardType-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "US2KeyboardType-Prefix.pch"; sourceTree = "<group>"; };
-		5B5E6CD119376A370050D097 /* US2AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = US2AppDelegate.h; sourceTree = "<group>"; };
-		5B5E6CD219376A370050D097 /* US2AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = US2AppDelegate.m; sourceTree = "<group>"; };
-		5B5E6CD519376A370050D097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5B5E6CD719376A370050D097 /* US2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = US2ViewController.h; sourceTree = "<group>"; };
-		5B5E6CD819376A370050D097 /* US2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = US2ViewController.m; sourceTree = "<group>"; };
-		5B5E6CDA19376A370050D097 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5B5E6CE019376A370050D097 /* US2KeyboardTypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = US2KeyboardTypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B5E6CE119376A370050D097 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		5B5E6CE919376A370050D097 /* US2KeyboardTypeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "US2KeyboardTypeTests-Info.plist"; sourceTree = "<group>"; };
-		5B5E6CEB19376A370050D097 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5B5E6CED19376A370050D097 /* US2KeyboardTypeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = US2KeyboardTypeTests.m; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		5B5E6CBC19376A370050D097 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
+/* Begin PBXCopyFilesBuildPhase section */
+		5B5E6DA219376F7A0050D097 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
 			files = (
-				5B5E6CC519376A370050D097 /* CoreGraphics.framework in Frameworks */,
-				5B5E6CC719376A370050D097 /* UIKit.framework in Frameworks */,
-				5B5E6CC319376A370050D097 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B5E6CDD19376A370050D097 /* Frameworks */ = {
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		19560627C4AD47BBA4CEB8A6 /* libPods-US2KeyboardTypeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-US2KeyboardTypeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A4008B55A1A4A068A47C4A5 /* libPods-US2KeyboardType-iOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-US2KeyboardType-iOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B57D92E193778D8004A5174 /* UIApplication+US2KeyboardTypeSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+US2KeyboardTypeSpec.m"; sourceTree = "<group>"; };
+		5B5E6CC219376A370050D097 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B5E6CC419376A370050D097 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5B5E6CC619376A370050D097 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5B5E6CE119376A370050D097 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5B5E6CFD19376CAB0050D097 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		5B5E6D0019376CAB0050D097 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B5E6D0119376CAB0050D097 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5B5E6D0219376CAB0050D097 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5B5E6DA419376F7A0050D097 /* libUS2KeyboardType.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUS2KeyboardType.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B5E6DA819376F7A0050D097 /* US2KeyboardType-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "US2KeyboardType-Prefix.pch"; sourceTree = "<group>"; };
+		5B5E6DC6193770260050D097 /* UIApplication+US2KeyboardType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+US2KeyboardType.h"; sourceTree = "<group>"; };
+		5B5E6DC7193770260050D097 /* UIApplication+US2KeyboardType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+US2KeyboardType.m"; sourceTree = "<group>"; };
+		5B824221193778AD00B99D67 /* US2KeyboardTypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = US2KeyboardTypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B824227193778AD00B99D67 /* US2KeyboardTypeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "US2KeyboardTypeTests-Info.plist"; sourceTree = "<group>"; };
+		5B824229193778AD00B99D67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B82422D193778AD00B99D67 /* US2KeyboardTypeTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "US2KeyboardTypeTests-Prefix.pch"; sourceTree = "<group>"; };
+		A1C9D934108A4D05B36065D7 /* Pods-US2KeyboardTypeTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-US2KeyboardTypeTests.xcconfig"; path = "Pods/Pods-US2KeyboardTypeTests.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B5E6DA119376F7A0050D097 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B5E6CE219376A370050D097 /* XCTest.framework in Frameworks */,
-				5B5E6CE419376A370050D097 /* UIKit.framework in Frameworks */,
-				5B5E6CE319376A370050D097 /* Foundation.framework in Frameworks */,
+				5B5E6DA519376F7A0050D097 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B82421E193778AD00B99D67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B824222193778AD00B99D67 /* XCTest.framework in Frameworks */,
+				5B824224193778AD00B99D67 /* UIKit.framework in Frameworks */,
+				5B824223193778AD00B99D67 /* Foundation.framework in Frameworks */,
+				757B2362EED84BFDB06DE44B /* libPods-US2KeyboardTypeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,18 +88,19 @@
 		5B5E6CB619376A370050D097 = {
 			isa = PBXGroup;
 			children = (
-				5B5E6CC819376A370050D097 /* US2KeyboardType */,
-				5B5E6CE719376A370050D097 /* US2KeyboardTypeTests */,
+				5B5E6DA619376F7A0050D097 /* US2KeyboardType */,
+				5B824225193778AD00B99D67 /* US2KeyboardTypeTests */,
 				5B5E6CC119376A370050D097 /* Frameworks */,
 				5B5E6CC019376A370050D097 /* Products */,
+				A1C9D934108A4D05B36065D7 /* Pods-US2KeyboardTypeTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
 		5B5E6CC019376A370050D097 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5B5E6CBF19376A370050D097 /* US2KeyboardType.app */,
-				5B5E6CE019376A370050D097 /* US2KeyboardTypeTests.xctest */,
+				5B5E6DA419376F7A0050D097 /* libUS2KeyboardType.a */,
+				5B824221193778AD00B99D67 /* US2KeyboardTypeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,49 +112,57 @@
 				5B5E6CC419376A370050D097 /* CoreGraphics.framework */,
 				5B5E6CC619376A370050D097 /* UIKit.framework */,
 				5B5E6CE119376A370050D097 /* XCTest.framework */,
+				19560627C4AD47BBA4CEB8A6 /* libPods-US2KeyboardTypeTests.a */,
+				5B5E6CFD19376CAB0050D097 /* Cocoa.framework */,
+				5B5E6CFF19376CAB0050D097 /* Other Frameworks */,
+				1A4008B55A1A4A068A47C4A5 /* libPods-US2KeyboardType-iOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5B5E6CC819376A370050D097 /* US2KeyboardType */ = {
+		5B5E6CFF19376CAB0050D097 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5B5E6CD119376A370050D097 /* US2AppDelegate.h */,
-				5B5E6CD219376A370050D097 /* US2AppDelegate.m */,
-				5B5E6CD419376A370050D097 /* Main.storyboard */,
-				5B5E6CD719376A370050D097 /* US2ViewController.h */,
-				5B5E6CD819376A370050D097 /* US2ViewController.m */,
-				5B5E6CDA19376A370050D097 /* Images.xcassets */,
-				5B5E6CC919376A370050D097 /* Supporting Files */,
+				5B5E6D0019376CAB0050D097 /* Foundation.framework */,
+				5B5E6D0119376CAB0050D097 /* CoreData.framework */,
+				5B5E6D0219376CAB0050D097 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5B5E6DA619376F7A0050D097 /* US2KeyboardType */ = {
+			isa = PBXGroup;
+			children = (
+				5B5E6DA719376F7A0050D097 /* Supporting Files */,
+				5B5E6DC6193770260050D097 /* UIApplication+US2KeyboardType.h */,
+				5B5E6DC7193770260050D097 /* UIApplication+US2KeyboardType.m */,
 			);
 			path = US2KeyboardType;
 			sourceTree = "<group>";
 		};
-		5B5E6CC919376A370050D097 /* Supporting Files */ = {
+		5B5E6DA719376F7A0050D097 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5B5E6CCA19376A370050D097 /* US2KeyboardType-Info.plist */,
-				5B5E6CCB19376A370050D097 /* InfoPlist.strings */,
-				5B5E6CCE19376A370050D097 /* main.m */,
-				5B5E6CD019376A370050D097 /* US2KeyboardType-Prefix.pch */,
+				5B5E6DA819376F7A0050D097 /* US2KeyboardType-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5B5E6CE719376A370050D097 /* US2KeyboardTypeTests */ = {
+		5B824225193778AD00B99D67 /* US2KeyboardTypeTests */ = {
 			isa = PBXGroup;
 			children = (
-				5B5E6CED19376A370050D097 /* US2KeyboardTypeTests.m */,
-				5B5E6CE819376A370050D097 /* Supporting Files */,
+				5B57D92E193778D8004A5174 /* UIApplication+US2KeyboardTypeSpec.m */,
+				5B824226193778AD00B99D67 /* Supporting Files */,
 			);
 			path = US2KeyboardTypeTests;
 			sourceTree = "<group>";
 		};
-		5B5E6CE819376A370050D097 /* Supporting Files */ = {
+		5B824226193778AD00B99D67 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5B5E6CE919376A370050D097 /* US2KeyboardTypeTests-Info.plist */,
-				5B5E6CEA19376A370050D097 /* InfoPlist.strings */,
+				5B824227193778AD00B99D67 /* US2KeyboardTypeTests-Info.plist */,
+				5B824228193778AD00B99D67 /* InfoPlist.strings */,
+				5B82422D193778AD00B99D67 /* US2KeyboardTypeTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -155,13 +170,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5B5E6CBE19376A370050D097 /* US2KeyboardType */ = {
+		5B5E6DA319376F7A0050D097 /* US2KeyboardType */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B5E6CF119376A370050D097 /* Build configuration list for PBXNativeTarget "US2KeyboardType" */;
+			buildConfigurationList = 5B5E6DC019376F7A0050D097 /* Build configuration list for PBXNativeTarget "US2KeyboardType" */;
 			buildPhases = (
-				5B5E6CBB19376A370050D097 /* Sources */,
-				5B5E6CBC19376A370050D097 /* Frameworks */,
-				5B5E6CBD19376A370050D097 /* Resources */,
+				5B5E6DA019376F7A0050D097 /* Sources */,
+				5B5E6DA119376F7A0050D097 /* Frameworks */,
+				5B5E6DA219376F7A0050D097 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -169,25 +184,27 @@
 			);
 			name = US2KeyboardType;
 			productName = US2KeyboardType;
-			productReference = 5B5E6CBF19376A370050D097 /* US2KeyboardType.app */;
-			productType = "com.apple.product-type.application";
+			productReference = 5B5E6DA419376F7A0050D097 /* libUS2KeyboardType.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		5B5E6CDF19376A370050D097 /* US2KeyboardTypeTests */ = {
+		5B824220193778AD00B99D67 /* US2KeyboardTypeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B5E6CF419376A370050D097 /* Build configuration list for PBXNativeTarget "US2KeyboardTypeTests" */;
+			buildConfigurationList = 5B824230193778AD00B99D67 /* Build configuration list for PBXNativeTarget "US2KeyboardTypeTests" */;
 			buildPhases = (
-				5B5E6CDC19376A370050D097 /* Sources */,
-				5B5E6CDD19376A370050D097 /* Frameworks */,
-				5B5E6CDE19376A370050D097 /* Resources */,
+				7B48633CB921437AB5E7F950 /* Check Pods Manifest.lock */,
+				5B82421D193778AD00B99D67 /* Sources */,
+				5B82421E193778AD00B99D67 /* Frameworks */,
+				5B82421F193778AD00B99D67 /* Resources */,
+				8EDFF2BA7DD44DFFB398828F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5B5E6CE619376A370050D097 /* PBXTargetDependency */,
+				5B82422F193778AD00B99D67 /* PBXTargetDependency */,
 			);
 			name = US2KeyboardTypeTests;
 			productName = US2KeyboardTypeTests;
-			productReference = 5B5E6CE019376A370050D097 /* US2KeyboardTypeTests.xctest */;
+			productReference = 5B824221193778AD00B99D67 /* US2KeyboardTypeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -200,8 +217,8 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = ustwo;
 				TargetAttributes = {
-					5B5E6CDF19376A370050D097 = {
-						TestTargetID = 5B5E6CBE19376A370050D097;
+					5B824220193778AD00B99D67 = {
+						TestTargetID = 5B5E6DA319376F7A0050D097;
 					};
 				};
 			};
@@ -218,83 +235,88 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5B5E6CBE19376A370050D097 /* US2KeyboardType */,
-				5B5E6CDF19376A370050D097 /* US2KeyboardTypeTests */,
+				5B5E6DA319376F7A0050D097 /* US2KeyboardType */,
+				5B824220193778AD00B99D67 /* US2KeyboardTypeTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5B5E6CBD19376A370050D097 /* Resources */ = {
+		5B82421F193778AD00B99D67 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B5E6CDB19376A370050D097 /* Images.xcassets in Resources */,
-				5B5E6CCD19376A370050D097 /* InfoPlist.strings in Resources */,
-				5B5E6CD619376A370050D097 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5B5E6CDE19376A370050D097 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5B5E6CEC19376A370050D097 /* InfoPlist.strings in Resources */,
+				5B82422A193778AD00B99D67 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7B48633CB921437AB5E7F950 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8EDFF2BA7DD44DFFB398828F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-US2KeyboardTypeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		5B5E6CBB19376A370050D097 /* Sources */ = {
+		5B5E6DA019376F7A0050D097 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B5E6CD919376A370050D097 /* US2ViewController.m in Sources */,
-				5B5E6CCF19376A370050D097 /* main.m in Sources */,
-				5B5E6CD319376A370050D097 /* US2AppDelegate.m in Sources */,
+				5B5E6DC8193770260050D097 /* UIApplication+US2KeyboardType.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B5E6CDC19376A370050D097 /* Sources */ = {
+		5B82421D193778AD00B99D67 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B5E6CEE19376A370050D097 /* US2KeyboardTypeTests.m in Sources */,
+				5B57D92F193778D8004A5174 /* UIApplication+US2KeyboardTypeSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5B5E6CE619376A370050D097 /* PBXTargetDependency */ = {
+		5B82422F193778AD00B99D67 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5B5E6CBE19376A370050D097 /* US2KeyboardType */;
-			targetProxy = 5B5E6CE519376A370050D097 /* PBXContainerItemProxy */;
+			target = 5B5E6DA319376F7A0050D097 /* US2KeyboardType */;
+			targetProxy = 5B82422E193778AD00B99D67 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5B5E6CCB19376A370050D097 /* InfoPlist.strings */ = {
+		5B824228193778AD00B99D67 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5B5E6CCC19376A370050D097 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		5B5E6CD419376A370050D097 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5B5E6CD519376A370050D097 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5B5E6CEA19376A370050D097 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5B5E6CEB19376A370050D097 /* en */,
+				5B824229193778AD00B99D67 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -372,68 +394,68 @@
 			};
 			name = Release;
 		};
-		5B5E6CF219376A370050D097 /* Debug */ = {
+		5B5E6DC119376F7A0050D097 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "US2KeyboardType/US2KeyboardType-Prefix.pch";
-				INFOPLIST_FILE = "US2KeyboardType/US2KeyboardType-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		5B5E6CF319376A370050D097 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "US2KeyboardType/US2KeyboardType-Prefix.pch";
-				INFOPLIST_FILE = "US2KeyboardType/US2KeyboardType-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		5B5E6CF519376A370050D097 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/US2KeyboardType.app/US2KeyboardType";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
+				DSTROOT = /tmp/US2KeyboardType.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "US2KeyboardType/US2KeyboardType-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "US2KeyboardTypeTests/US2KeyboardTypeTests-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		5B5E6CF619376A370050D097 /* Release */ = {
+		5B5E6DC219376F7A0050D097 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/US2KeyboardType.app/US2KeyboardType";
+				DSTROOT = /tmp/US2KeyboardType.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "US2KeyboardType/US2KeyboardType-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5B824231193778AD00B99D67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1C9D934108A4D05B36065D7 /* Pods-US2KeyboardTypeTests.xcconfig */;
+			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "US2KeyboardType/US2KeyboardType-Prefix.pch";
+				GCC_PREFIX_HEADER = "US2KeyboardTypeTests/US2KeyboardTypeTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = "US2KeyboardTypeTests/US2KeyboardTypeTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5B824232193778AD00B99D67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1C9D934108A4D05B36065D7 /* Pods-US2KeyboardTypeTests.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "US2KeyboardTypeTests/US2KeyboardTypeTests-Prefix.pch";
+				INFOPLIST_FILE = "US2KeyboardTypeTests/US2KeyboardTypeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -450,21 +472,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B5E6CF119376A370050D097 /* Build configuration list for PBXNativeTarget "US2KeyboardType" */ = {
+		5B5E6DC019376F7A0050D097 /* Build configuration list for PBXNativeTarget "US2KeyboardType" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B5E6CF219376A370050D097 /* Debug */,
-				5B5E6CF319376A370050D097 /* Release */,
+				5B5E6DC119376F7A0050D097 /* Debug */,
+				5B5E6DC219376F7A0050D097 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		5B5E6CF419376A370050D097 /* Build configuration list for PBXNativeTarget "US2KeyboardTypeTests" */ = {
+		5B824230193778AD00B99D67 /* Build configuration list for PBXNativeTarget "US2KeyboardTypeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B5E6CF519376A370050D097 /* Debug */,
-				5B5E6CF619376A370050D097 /* Release */,
+				5B824231193778AD00B99D67 /* Debug */,
+				5B824232193778AD00B99D67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
