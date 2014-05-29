@@ -20,6 +20,20 @@
                ReferencedContainer = "container:US2KeyboardType.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "17A09EF3DEC94428B88A8254"
+               BuildableName = "libPods-US2KeyboardTypeTests.a"
+               BlueprintName = "Pods-US2KeyboardTypeTests"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
