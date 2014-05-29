@@ -2,5 +2,6 @@ language: objective-c
 before_install: gem install cocoapods
 xcode_workspace: US2KeyboardType.xcworkspace
 xcode_scheme: US2KeyboardType
+xcode_sdk: iphonesimulator7.1
 notifications:
   email: false
