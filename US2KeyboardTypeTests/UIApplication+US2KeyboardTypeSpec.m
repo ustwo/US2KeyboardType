@@ -23,15 +23,15 @@ describe(@"UIApplication+US2KeyboardType", ^{
     __block UIApplication *applicationMock = nil;
     
     beforeEach(^{
-        applicationMock = mock([UIApplication class]);
-        [given([applicationMock keyboardType]) willReturnUnsignedInteger:UIKeyboardTypeNumbersAndPunctuation];
+//        applicationMock = mock([UIApplication class]);
+//        [given([applicationMock keyboardType]) willReturnUnsignedInteger:UIKeyboardTypeNumbersAndPunctuation];
     });
     
-    pending(@"keyboardType should be ASCIII", ^{
-        UIKeyboardType expectedKeyboardType = UIKeyboardTypeNumbersAndPunctuation;
-        UIKeyboardType actualKeyboardType = [applicationMock keyboardType];
-        expect(expectedKeyboardType).to.equal(actualKeyboardType);
-    });
+//    pending(@"keyboardType should be ASCIII", ^{
+//        UIKeyboardType expectedKeyboardType = UIKeyboardTypeNumbersAndPunctuation;
+//        UIKeyboardType actualKeyboardType = [applicationMock keyboardType];
+//        expect(expectedKeyboardType).to.equal(actualKeyboardType);
+//    });
 });
 
 SpecEnd
