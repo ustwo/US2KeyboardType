@@ -1,0 +1,3 @@
+language: objective-c
+xcode_workspace: US2KeyboardType.xcodeproj
+xcode_scheme: US2KeyboardType
