@@ -7,7 +7,7 @@
 //
 
 #import "UIApplication+US2KeyboardType.h"
-#import <objc/objc-runtime.h>
+#import <objc/message.h>
 
 
 @implementation UIApplication (US2KeyboardType)
