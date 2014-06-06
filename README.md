@@ -8,3 +8,5 @@ US2KeyboardType is a category on UIApplication to determine the current UIKeyboa
     #import "UIApplication+US2KeyboardType.h"
     
     self.textField.keyboardType = [UIApplication sharedApplication].keyboardType;
+    
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/cbd3f42761cc90220cce0156934c1c55 "githalytics.com")](http://githalytics.com/ustwo/US2KeyboardType)
