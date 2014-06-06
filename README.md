@@ -17,9 +17,8 @@ Read about the problem and the way the library is solving the issue.
 
 #### Podfile
 
-```platform :ios, '7.0'
-pod "US2KeyboardType", "~> 1.0"
-```
+    platform :ios, '7.0'
+    pod "US2KeyboardType", "~> 1.0"
 
 #### Usage
 
