@@ -9,7 +9,7 @@ US2KeyboardType is a category on UIApplication to determine the current UIKeyboa
 
 Read about the problem and the way the library is solving the issue.
 
-[tech.ustwo.com/2014/05/29/ios-uikeyboardtype-issue/](tech.ustwo.com/2014/05/29/ios-uikeyboardtype-issue)
+[tech.ustwo.com/2014/05/29/ios-uikeyboardtype-issue/](http://tech.ustwo.com/2014/05/29/ios-uikeyboardtype-issue)
 
 ## Installation with CocoaPods
 
